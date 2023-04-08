@@ -26,7 +26,7 @@ const Cards = () => {
                 <p className='py-2 border-b mx-8'>3 Users Allowed</p>
                 <p className='py-2 border-b mx-8'>Send up to 10 GB</p>
                </div>
-               <button className='bg-black text-[#03f59e] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Start Trial</button>
+               <button className='bg-black text-[#03df9e] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>Start Trial</button>
             </div>
             <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
                <IoIosPeople className='w-20 mx-auto mt-[-3rem] bg-transparent' size={70}/>
