@@ -1,24 +1,36 @@
-import React from 'react'
-import Typed from 'react-typed'
+import React from "react";
+import Typed from "react-typed";
 
 export const Hero = () => {
   return (
-    <div className='text-white'>
-        <div className='max-w-[800px] mt-[-96] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-            <p className='text-[#00df9a] font-bold p-2'>GROWING WITH DATA ANALYTICS</p>
-            <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Grow with data.</h1>
-            <div className='flex justify-center items-center'>
-                <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>Fast, flexible financing for</p>
-                 <Typed className='md:text-5xl sm:text-4xl text-xl font-bold text-[#92f7d7] md:pl-4 pl-2'
-                 strings={['BTB', 'BTC', 'SASS']}
-                 typeSpeed={120}
-                 backSpeed={140}
-                 loop
-                 />
-            </div>
-            <p className='md:text-2xl text-xl font-bold text-gray-500'>Monitor yoyr data analytics to increase revenue for BTB, BTC & SASS platfroms.</p>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+    <div className="text-white">
+      <div className="mx-auto mt-[-96] flex h-screen w-full max-w-[800px] flex-col justify-center text-center">
+        <p className="p-2 font-bold text-[#00df9a]">
+          GROWING WITH DATA ANALYTICS
+        </p>
+        <h1 className="text-4xl font-bold sm:text-6xl md:py-6 md:text-7xl">
+          Grow with data.
+        </h1>
+        <div className="flex items-center justify-center">
+          <p className="py-4 text-xl font-bold sm:text-4xl md:text-5xl">
+            Fast, flexible financing for
+          </p>
+          <Typed
+            className="pl-2 text-xl font-bold text-[#92f7d7] sm:text-4xl md:pl-4 md:text-5xl"
+            strings={["BTB", "BTC", "SASS"]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
         </div>
+        <p className="text-xl font-bold text-gray-500 md:text-2xl">
+          Monitor your data analytics to increase revenue for BTB, BTC & SASS
+          platfroms.
+        </p>
+        <button className="my-6 mx-auto w-[200px] rounded-md bg-[#00df9a] py-3 font-medium text-black duration-100 hover:scale-105 hover:bg-[#00df8a]">
+          Get Started
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
